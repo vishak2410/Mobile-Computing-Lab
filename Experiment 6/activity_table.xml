@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <TableRow>
+        <TextView android:text="Name"/>
+        <TextView android:text="Age"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Vishak"/>
+        <TextView android:text="20"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Sooraj"/>
+        <TextView android:text="20"/>
+    </TableRow>
+
+</TableLayout>
