@@ -1,0 +1,26 @@
+Experiment 1: Hello World
+
+Aim
+
+To develop a simple Android application that displays “Hello World” on the screen using Android Studio. 
+
+Algorithm
+
+Start Android Studio and create a new Android project.
+
+Select Empty Activity.
+
+Open the activity_main.xml layout file.
+
+Add a Text View component to the layout.
+
+Set the text property of the Text View to “Hello World!”.
+
+Open MainActivity.java.
+
+Use setContentView() to connect the activity with the layout.
+
+Run the application on an Android Emulator or device.
+
+The screen displays Hello World. 
+
