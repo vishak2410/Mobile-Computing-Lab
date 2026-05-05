@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:background="#F0F4FF">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Ask a Question" android:textSize="24sp"
+        android:textStyle="bold" android:textColor="#3F51B5" android:layout_marginBottom="24dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Subject" android:textStyle="bold" android:layout_marginBottom="4dp"/>
+
+    <Spinner android:id="@+id/spinnerSubject" android:layout_width="match_parent"
+        android:layout_height="52dp" android:layout_marginBottom="16dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Your Question" android:textStyle="bold" android:layout_marginBottom="4dp"/>
+
+    <EditText android:id="@+id/etQuestion" android:layout_width="match_parent"
+        android:layout_height="140dp" android:hint="Type your question here..."
+        android:inputType="textMultiLine" android:gravity="top"
+        android:background="@drawable/edit_text_bg" android:padding="16dp"
+        android:layout_marginBottom="20dp"/>
+
+    <CheckBox android:id="@+id/cbAnonymous" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Ask Anonymously (hide my name)"
+        android:textSize="15sp" android:layout_marginBottom="24dp"/>
+
+    <Button android:id="@+id/btnSubmit" android:layout_width="match_parent"
+        android:layout_height="52dp" android:text="Submit Question"
+        android:backgroundTint="#3F51B5"/>
+</LinearLayout>
